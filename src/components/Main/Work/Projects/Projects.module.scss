@@ -1,0 +1,32 @@
+.workSection {
+    grid-area: pb;
+    text-align: right;
+    margin-right: 30px;
+    border: 1px solid red;
+
+    .pTitle {
+        font-family: "Consolas";
+        color: #ABABAB;
+        user-select: none;
+    }
+
+    .projNav {
+        margin: 5px 0 5px 0;
+        color: black;
+        text-decoration: none;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 75px;
+        font-weight: 900;
+
+        .project {
+            width: 90%;
+            float: right;
+            transition: all 0.3s;
+        }
+
+        :hover {
+            background-color: #EBFF00;
+        }
+    }
+
+}

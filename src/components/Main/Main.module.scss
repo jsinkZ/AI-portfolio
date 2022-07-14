@@ -1,0 +1,29 @@
+.backgroundWrap {
+    display: grid;
+    position: relative; 
+    grid-template-areas: "bc1 bc2";
+    grid-template-columns: 1fr 3fr;
+    min-height: 100vh;
+    z-index: 5;
+
+    .backgroundFirst {
+    }
+
+    .backgroundSecond {
+        height: 100%;
+        background-color: #F5F5F5;
+    }
+}
+
+.contentSection {
+    display: grid;
+    grid-template-areas: "ib pb";
+    grid-template-columns: 3fr 2fr;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin-top: 230px;
+    box-sizing: border-box;
+    z-index: 99;
+
+}

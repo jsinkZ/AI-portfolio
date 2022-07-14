@@ -1,0 +1,32 @@
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+
+
+    .headerLogoBox {
+        width: 100px;
+        height: 100px;
+        margin: 17px;
+        text-align: center;
+        font-size: 36px;
+        font-family: 'Times New Roman', Times, serif;
+        line-height: 83px;
+        background-color: #EBFF00;
+        cursor: pointer;
+        transition: all 0.5s;
+
+        h3 {
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0;
+            user-select: none;
+        }
+    }
+
+    .headerLogoBox:hover {
+        background-color: black;
+        color: white;
+    }
+
+}
