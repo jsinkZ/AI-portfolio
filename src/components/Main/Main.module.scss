@@ -27,3 +27,23 @@
     z-index: 99;
 
 }
+
+@media only screen and (min-width: 290px) and (max-width: 1300px) {
+
+    .backgroundWrap {
+        grid-template-columns: 2fr 3fr;
+    }
+
+    
+    .contentSection {
+        display: grid;
+        grid-template-areas: "ib pb";
+        grid-template-columns: 1fr 3fr;
+        position: absolute;
+        top: 0;
+        margin-top: 130px;
+        box-sizing: border-box;
+        z-index: 99;
+    }
+
+}

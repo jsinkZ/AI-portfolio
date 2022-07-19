@@ -1,18 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400&display=swap');
+
 .introSection {
     grid-area: ib;
     margin-left: 117px;
 
     .pTitle {
-        font-family: "Consolas";
+        font-family: "Consolas", 'Inconsolata', monospace;
         color: #ABABAB;
         user-select: none;
     }
 
-    .pGreetings {
+    .h2Greetings, .h3JobPosition {
         margin: 5px 0 5px 0;
         font-family: 'Times New Roman', Times, serif;
-        font-size: 50px;
         font-weight: 500;
+    }
+
+    .h2Greetings {
+        font-size: 70px;
+    }
+
+    .h3JobPosition {
+        font-size: 50px;
     }
 
     .myContacts {
@@ -42,7 +51,32 @@
     }
 
     .socialSection {
-        margin-top: 300px;
+        margin-top: 230px;
+        margin-bottom: 40px;
+    }
+
+}
+
+@media only screen and (min-width: 290px) and (max-width: 1300px) { 
+
+    .introSection {
+        min-width: 280px;
+        max-width: 1000px;
+        margin-left: 17px;
+
+        .h2Greetings {
+            font-size: 1.7em;
+        }
+    
+        .h3JobPosition {
+            font-size: 1.3em;
+        }
+        
+        .socialSection {
+            margin-top: 350px;
+            margin-bottom: 30px;
+        }
+
     }
 
 }

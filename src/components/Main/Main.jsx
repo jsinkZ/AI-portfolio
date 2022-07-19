@@ -12,7 +12,7 @@ const Main = (props) => {
             </div>
             <div className={classes.contentSection}>
                 <Intro/>
-                {/* <Work/> */}
+                <Work/>
             </div>
         </div>
     )

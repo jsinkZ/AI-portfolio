@@ -9,8 +9,10 @@ import phoneIcon from "./telephone-icon.png"
 const Intro = () => {
     return(
             <div className={classes.introSection}>
-                <p className={classes.pTitle}> ДОЛЖНОСТЬ </p>
-                <p className={classes.pGreetings}> Member of Rosatom Junior Council </p>
+                <p className={classes.pTitle}> ВСТУПЛЕНИЕ </p>
+                <h2 className={classes.h2Greetings}> Аленичев Илья Владимирович </h2>
+                <h3 className={classes.h3JobPosition}> Member of Rosatom Junior Council </h3>
+                <AboutMe/>
                 <p className={classes.pTitle}> КОНТАКТЫ </p>
                 <div className={classes.myContacts}>
                     <div>
@@ -20,7 +22,6 @@ const Intro = () => {
                         <a href="mailto:ilyaalenichev@gmail.com">  <img className={classes.contactIcon} src={emailIcon} alt="mail" /> ilyaalenichev@gmail.com  </a>
                     </div>
                 </div>
-                {/* <AboutMe/> */}
                 <div className={classes.socialSection}>
                     <p className={classes.pTitle}> ТАКЖЕ ЕСТЬ </p>
                     <Socials/>
