@@ -6,8 +6,7 @@
     min-height: 100vh;
     z-index: 5;
 
-    .backgroundFirst {
-    }
+    // .backgroundFirst {}
 
     .backgroundSecond {
         height: 100%;
@@ -25,25 +24,21 @@
     margin-top: 230px;
     box-sizing: border-box;
     z-index: 99;
-
 }
 
 @media only screen and (min-width: 290px) and (max-width: 1300px) {
 
     .backgroundWrap {
-        grid-template-columns: 2fr 3fr;
+        grid-template-areas: "bc1";
+        grid-template-columns: 2fr 4fr;
+        min-height: 100fr;
     }
-
     
     .contentSection {
         display: grid;
-        grid-template-areas: "ib pb";
-        grid-template-columns: 1fr 3fr;
-        position: absolute;
-        top: 0;
+        grid-template-areas: "ib";
+        grid-template-columns: 3fr;
         margin-top: 130px;
-        box-sizing: border-box;
-        z-index: 99;
     }
 
 }

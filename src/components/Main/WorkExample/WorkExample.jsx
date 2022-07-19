@@ -1,14 +1,13 @@
 import React from "react"
 import Projects from "./Projects/Projects"
-import classes from "./Work.module.scss"
-
+import classes from "./WorkExample.module.scss"
 
 const Work = () => {
     return(
         <div className={classes.workSection}> 
-                    <p className={classes.pTitle}> МОИ РАБОТЫ </p>
-                    <Projects/>
-                </div>
+            <p className={classes.pTitle}> МОИ РАБОТЫ </p>
+            <Projects/>
+        </div>
     )
 }
 

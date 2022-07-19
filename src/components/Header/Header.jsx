@@ -10,7 +10,7 @@ const Header = (props) => {
                 </h3>
             </div>
         </header>
-    )
+)
 }
 
 export default Header

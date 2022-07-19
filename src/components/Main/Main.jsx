@@ -1,7 +1,7 @@
 import React from "react"
-import Intro from "./Intro/Intro"
+import BusinessInfo from "./BusinessInfo/BusinessInfo"
 import classes from "./Main.module.scss"
-import Work from "./Work/Work"
+import WorkExample from "./WorkExample/WorkExample"
 
 const Main = (props) => {
     return (
@@ -11,8 +11,8 @@ const Main = (props) => {
                 <div className={classes.backgroundSecond}></div>
             </div>
             <div className={classes.contentSection}>
-                <Intro/>
-                <Work/>
+                <BusinessInfo/>
+                {/* <WorkExample/> */}
             </div>
         </div>
     )
